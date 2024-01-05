@@ -1,0 +1,102 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    background: floralwhite;
+    padding-bottom: 30px;
+    height: 300px;
+    width: 400px;
+    border-radius: 45px;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42, 165, 114);
+    padding-left: 10px;
+    padding-right: 7px;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    gap: 9px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+.text {
+    color: rgb(95, 20, 192);
+    font-size: 25px;
+    font-weight: 70;
+    font-style: Bold;
+    align-items: center;
+
+}
+
+.underline {
+    text-size-adjust: 4px;
+    width: 61px;
+    height: 6px;
+    background: rgb(232, 235, 60);
+    border-radius: 9px;
+    margin-bottom: 5%;
+}
+
+.inputs {
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height:auto;
+    border-radius: 6px;
+    outline: none;
+    color: rgb(177, 93, 45);
+    font-size: 19px;
+    flex-direction: column;
+}
+
+.input img {
+    margin: 0px 0px 0px 30px;
+}
+
+.input input {
+    margin: 10px;
+    height: 15px;
+    width: 250px;
+    background: rgb(96, 211, 226);
+    border: none;
+    outline: none;
+    color: rgb(103, 52, 241);
+    font-size: 19px;
+    border-radius: 20px;
+    padding: 5px;
+}
+.forgot-password{
+    
+    padding: 5px;
+}
+.forgot-password span {
+  
+    justify-content: center;
+    color: rgb(226, 78, 206);
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: aliceblue;
+    background: burlywood;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+
+}
